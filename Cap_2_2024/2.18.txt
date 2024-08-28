@@ -1,0 +1,23 @@
+// 2.18 (Comparando enteros)
+// Escribe un programa que le pida al usuario que ingrese dos enteros, obtenga los números del usuario y luego imprima el número mayor seguido de las palabras "es mayor". Si los números son iguales, imprime el mensaje "Estos números son iguales".
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+
+    cout << "Ingrese dos números enteros: ";
+    cin >> num1 >> num2;
+
+    if (num1 > num2) {
+        cout << num1 << " es mayor." << endl;
+    } else if (num2 > num1) {
+        cout << num2 << " es mayor." << endl;
+    } else {
+        cout << "Estos números son iguales." << endl;
+    }
+
+    return 0;
+}

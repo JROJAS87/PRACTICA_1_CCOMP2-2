@@ -1,0 +1,31 @@
+// 2.16 (Aritmética) 
+// Escribe un programa que le pida al usuario que ingrese dos números, obtenga los dos números del usuario e imprima la suma, el producto, la diferencia y el cociente de los dos números.
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero1;
+    int numero2;
+    int sum;
+    int producto;
+    int dif;
+    int cociente;
+
+    cout << "Ingrese dos numeros: ";
+    cin >> numero1 >> numero2;
+
+
+    sum = numero1 + numero2;
+    producto = numero1 * numero2;
+    dif = numero1 - numero2;
+    cociente = numero1 / numero2;
+
+    cout << "Suma: " << sum << "\n";
+    cout << "Producto: " << producto << "\n";
+    cout << "Diferencia: " << dif<< "\n";
+    cout << "Cociente: " << cociente << endl;
+
+    return 0;
+}
